@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial;
-    font-size: 0.9em ;
+    font-size: 1em ;
     line-height: 1.3em;
 }
 
@@ -26,30 +26,28 @@ body {
 }
 
 .firstname {
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    display:inline;
-    background: red;
+    display: inline;
     color: white;
-} 
-
-
-.lastname {
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    display:inline;
-    background:yellow;
-    color:black;
-} 
-
-.namealign {
-    background: red;
-    width:40%;
-    margin: 0 auto;
 }
 
-/*.name {
-    background: blue;
-    width: 100%;
-}*/
+.lastname {
+    display: inline;
+    color: black;
+}
+
+.namewrapper {
+    text-align: center;
+}
+
+.namealign {
+    margin: 10% auto;
+    display: inline-block;
+}
+
+
+.sidebox ul {
+    list-style: none; 
+}
 
 .content {
     position: absolute;
