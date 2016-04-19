@@ -1,1 +1,42 @@
 /* This is the global .css file for Le Collegiate. */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 0.9em ;
+    line-height: 1.3em;
+}
+
+.sidebox {
+    position: absolute;
+    background: orange;
+    width: 20%;
+    min-height: 100%;
+}
+
+.frontface {
+    border-radius: 50%;
+    width: 40%;
+    display: block;
+    margin: 10vh auto;
+}
+
+.content {
+    position: absolute;
+    margin-left: 20%;
+    min-height:100%;
+    width: 60%;
+}
+
+.contentindex {
+    position: absolute;
+    margin-left: 80%;
+    float: left;
+    width: 20%;
+    min-height: 100%;
+    background: lightgrey;
+}
