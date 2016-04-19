@@ -27,7 +27,6 @@ body {
 
 .firstname {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    display: block;
     float:left;
     margin: 0 auto;
     color: white;
@@ -36,14 +35,13 @@ body {
 
 .lastname {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    display: block;
     float:left;
     margin: 0 auto;
     color:black;
 } 
 
 .name {
-    width:39%;
+    width: 39%;
     margin: 10% auto;
 }
 
