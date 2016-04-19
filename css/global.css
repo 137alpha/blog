@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: Arial;
     font-size: 0.9em ;
@@ -16,6 +20,7 @@ body {
     background: #0072BB;
     width: 20%;
     height: 100%;
+    text-align: center;
 }
 
 .frontface {
@@ -35,18 +40,40 @@ body {
     color: black;
 }
 
-.namewrapper {
-    text-align: center;
-}
-
 .namealign {
     margin: 10% auto;
     display: inline-block;
 }
 
+.namewrapper {
+    text-align: center;
+}
 
 .sidebox ul {
-    list-style: none; 
+    margin: 10% 0;
+    list-style: none;
+    text-align: center; 
+}
+
+.sidebox ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 2% 0; 
+    color: white;
+}
+
+.sidebox ul li a:hover {
+    display: inline-block;
+    width: 100%;
+    border-radius: 13px;
+    padding: 2% 0;
+    background: black;
+    color: white;
+}
+
+.boxfooter {
+    margin-top: 30%;
+    display: inline-block;
 }
 
 .content {
