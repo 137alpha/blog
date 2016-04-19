@@ -27,23 +27,29 @@ body {
 
 .firstname {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    float:left;
-    margin: 0 auto;
+    display:inline;
+    background: red;
     color: white;
 } 
 
 
 .lastname {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    float:left;
-    margin: 0 auto;
+    display:inline;
+    background:yellow;
     color:black;
 } 
 
-.name {
-    width: 39%;
-    margin: 10% auto;
+.namealign {
+    background: red;
+    width:40%;
+    margin: 0 auto;
 }
+
+/*.name {
+    background: blue;
+    width: 100%;
+}*/
 
 .content {
     position: absolute;
