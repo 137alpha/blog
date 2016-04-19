@@ -13,16 +13,38 @@ body {
 
 .sidebox {
     position: absolute;
-    background: dodgerblue;
+    background: #0072BB;
     width: 20%;
-    height: 100vh;
+    height: 100%;
 }
 
 .frontface {
     border-radius: 50%;
     width: 40%;
     display: block;
-    margin: 10vh auto;
+    margin: 20% auto 0 auto;
+}
+
+.firstname {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    display: block;
+    float:left;
+    margin: 0 auto;
+    color: white;
+} 
+
+
+.lastname {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    display: block;
+    float:left;
+    margin: 0 auto;
+    color:black;
+} 
+
+.name {
+    width:39%;
+    margin: 10% auto;
 }
 
 .content {
@@ -39,3 +61,16 @@ body {
     min-height: 100%;
     background: black;
 }
+
+/*
+
+Pallete
+
+#0072BB blue
+#FF4C3B red
+#FFD034 yellow
+#C6C8CA grey
+#000000 black
+#FFFFFF white
+
+*/
