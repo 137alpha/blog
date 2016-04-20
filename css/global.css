@@ -32,11 +32,15 @@ body {
 }
 
 .firstname {
+    font-family: arial;
+    font-size: 1.1em;
     display: inline;
     color: white;
 }
 
 .lastname {
+    font-family: arial;
+    font-size: 1.1em;
     display: inline;
     color: black;
 }
