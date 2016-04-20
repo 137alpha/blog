@@ -17,7 +17,7 @@ body {
 }
 
 .sidebox {
-    position: absolute;
+    position: fixed;
     background: #0072BB;
     width: 20%;
     height: 100%;
