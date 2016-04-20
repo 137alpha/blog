@@ -85,22 +85,22 @@ body {
 }
 
 .headings1 {
+	display: block;
     border-radius: 5px;
-    padding: 20px 10px;
+	padding: 25px 10px ;
     background: #FFD034;
-    font-size: 1.7em;
     color: black;
 }
 
 .headings2 {
-    padding: 15px 10px;
-    font-size: 1.3em;
+	display: block;
+	padding: 20px 10px ;
     color: black;
 }
 
 .headings3 {
-    padding: 10px 10px;
-    font-size: 1.3em;
+	display: block;
+	padding: 15px 10px ;
     color: black;
 
 }
@@ -121,7 +121,33 @@ body {
     float: left;
     width: 20%;
     min-height: 100%;
-    background: black;
+    background: white;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 800px) {
+    
+    .sidebox {
+        position: relative;
+        float:left;
+        width: 100%;   
+    }
+    
+    .content {
+        position: relative;
+        float: left;
+        width: 98%;
+        margin: 0;
+    }
+    
+    .contentindex{
+        position:relative;
+        float:left;
+        width:100%;
+    }
+    
+    .boxfooter {
+        padding : 20px 20px;
+    }
 }
 
 /*
