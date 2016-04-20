@@ -77,6 +77,8 @@ body {
 }
 
 .boxfooter {
+    font-family: Arial;
+    font-size: 0.9em;
     margin-top: 30%;
     display: inline-block;
 }
