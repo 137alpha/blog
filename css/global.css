@@ -22,7 +22,7 @@ body {
 
 .sidebox {
     position: fixed;
-    background: #0072BB;
+    background: #6ed3cf;
     width: 20%;
     height: 100%;
     text-align: center;
@@ -66,18 +66,19 @@ body {
 
 .sidebox ul li a {
     display: inline-block;
+    font-weight: 600;
     width: 100%;
     padding: 2% 0; 
     color: white;
 }
 
 .sidebox ul li a:hover {
-    display: inline-block;
+    display: inline-block; 
     width: 100%;
-    border-radius: 10px;
+    border-radius: 17px;
     padding: 2% 0;
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .boxfooter {
@@ -117,6 +118,7 @@ body {
 
 .headings3 {
 	display: block;
+    width: 50%;
 	padding: 15px 10px ;
     color: black;
 
@@ -124,7 +126,7 @@ body {
 
 
 .headings2:hover, .headings3:hover {
-    color: #0072BB;
+    color: #6ed3cf;
 }
 
 
@@ -149,7 +151,7 @@ body {
     float: left;
     width: 20%;
     min-height: 100%;
-    background: #0072BB;
+    background: #6ed3cf;
 }
 
 /*
@@ -164,6 +166,11 @@ body {
         float:left;
         width: 100%;   
     }
+    
+    .sidebox ul li a:hover {
+    border-radius: 25px;
+    }
+
     
     .content {
         position: relative;
@@ -187,7 +194,7 @@ body {
 
 Pallete
 
-#0072BB blue
+#6ed3cf blue
 #FF4C3B red
 #FFD034 yellow
 #C6C8CA grey
