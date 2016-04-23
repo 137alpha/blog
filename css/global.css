@@ -90,6 +90,10 @@ body {
     padding: 1% 1%;
 }
 
+.content a:hover {
+    color: #0072BB
+}
+
 .headings1 {
 	display: block;
     border-radius: 5px;
