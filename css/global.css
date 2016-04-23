@@ -16,6 +16,10 @@ body {
     line-height: 1.3em;
 }
 
+/*
+*************************************** SIDEBOX ****************************************
+*/
+
 .sidebox {
     position: fixed;
     background: #0072BB;
@@ -83,6 +87,10 @@ body {
     display: inline-block;
 }
 
+/*
+*************************************** CONTENT ****************************************
+*/
+
 .content {
     position: absolute;
     margin-left: 20%;
@@ -90,16 +98,14 @@ body {
     padding: 1% 1%;
 }
 
-.content a:hover {
-    color: #0072BB
-}
 
 .headings1 {
 	display: block;
     border-radius: 5px;
 	padding: 25px 10px ;
-    background: #FFD034;
-    color: black;
+    text-align: center;
+    background: black;
+    color: white;
 }
 
 .headings2 {
@@ -108,12 +114,19 @@ body {
     color: black;
 }
 
+
 .headings3 {
 	display: block;
 	padding: 15px 10px ;
     color: black;
 
 }
+
+
+.headings2:hover, .headings3:hover {
+    color: #0072BB;
+}
+
 
 .paragraphs {
     padding: 10px 20px;
@@ -125,6 +138,11 @@ body {
     
 }
 
+/*
+*************************************** CONTENTINDEX ****************************************
+*/
+
+
 .contentindex {
     position: fixed;
     margin-left: 80%;
@@ -133,6 +151,11 @@ body {
     min-height: 100%;
     background: #0072BB;
 }
+
+/*
+*************************************** @MEDIA ****************************************
+*/
+
 
 @media only screen and (min-width: 150px) and (max-width: 1024px) {
     
